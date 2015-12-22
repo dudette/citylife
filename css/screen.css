@@ -1719,7 +1719,8 @@ header {
   header .logo {
     float: left;
     display: inline-block;
-    margin: 20px 0; }
+    margin: 20px 0;
+    z-index: 10; }
     header .logo img {
       width: 200px;
       height: auto; }
