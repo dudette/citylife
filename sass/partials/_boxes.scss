@@ -1,0 +1,56 @@
+.info-box {
+	cursor: pointer;
+	margin-bottom: 20px;
+	display: block;
+	color: $black;
+	&:hover {
+		text-decoration: none;
+		color: $black;
+	}
+	img {
+		width: 100%;
+	}
+	.info-box-text {
+		padding: 20px 20px 40px 20px;
+		background-color: white;
+		border: 1px solid grey;
+		text-align: center;
+		h2 {
+			margin-top: 0;
+		}
+	}
+}
+
+.info-box_red {
+	background-color: $red;
+	&:hover {
+		.info-box-text, img {
+			opacity: 0.5;
+		}
+	}
+	.info-box-text {
+		border-top: 10px solid $red;
+	}
+}
+.info-box_purple {
+	background-color: $purple;
+	&:hover {
+		.info-box-text, img {
+			opacity: 0.5;
+		}
+	}
+	.info-box-text {
+		border-top: 10px solid $purple;
+	}
+}
+.info-box_orange {
+	background-color: $orange;
+	&:hover {
+		.info-box-text, img {
+			opacity: 0.5;
+		}
+	}
+	.info-box-text {
+		border-top: 10px solid $orange;
+	}
+}
