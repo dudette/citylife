@@ -1607,6 +1607,26 @@ tbody.collapse.in {
   filter: alpha(opacity=0);
   opacity: 0; }
 
+h1 {
+  font-size: 36px;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0; }
+
+p {
+  font-size: 16px; }
+
+.section {
+  margin-bottom: 20px; }
+  .section.seaweed {
+    background: #0E3E4E;
+    padding: 20px 0; }
+
 .hero {
   height: 400px;
   overflow: hidden; }
@@ -1620,6 +1640,8 @@ tbody.collapse.in {
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 36px; }
+    .hero .heading span {
+      color: #932226; }
 
 .contact-ribbon {
   text-align: center; }
@@ -1635,6 +1657,7 @@ tbody.collapse.in {
     font-weight: bold;
     display: inline-block; }
 
+<<<<<<< HEAD
 .promotion {
   position: relative; }
   .promotion img {
@@ -1667,6 +1690,46 @@ h2 {
   .section.seaweed {
     background: #0E3E4E;
     padding: 20px 0; }
+=======
+.info-box {
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  color: #1A1919; }
+  .info-box:hover {
+    text-decoration: none;
+    color: #1A1919; }
+  .info-box img {
+    width: 100%; }
+  .info-box .info-box-text {
+    padding: 20px 20px 40px 20px;
+    background-color: white;
+    border: 1px solid grey;
+    text-align: center; }
+    .info-box .info-box-text h2 {
+      margin-top: 0; }
+
+.info-box_red {
+  background-color: #932226; }
+  .info-box_red:hover .info-box-text, .info-box_red:hover img {
+    opacity: 0.5; }
+  .info-box_red .info-box-text {
+    border-top: 10px solid #932226; }
+
+.info-box_purple {
+  background-color: #5B2C4B; }
+  .info-box_purple:hover .info-box-text, .info-box_purple:hover img {
+    opacity: 0.5; }
+  .info-box_purple .info-box-text {
+    border-top: 10px solid #5B2C4B; }
+
+.info-box_orange {
+  background-color: #CE6247; }
+  .info-box_orange:hover .info-box-text, .info-box_orange:hover img {
+    opacity: 0.5; }
+  .info-box_orange .info-box-text {
+    border-top: 10px solid #CE6247; }
+>>>>>>> origin/master
 
 header {
   background: rgba(26, 25, 25, 0.6);
@@ -1688,6 +1751,13 @@ header {
       display: inline;
       line-height: 1.5;
       margin-right: 20px; }
+      header .menu ul li.active a {
+        color: #932226; }
       header .menu ul li a {
         color: #FFFFFF;
-        font-size: 16px; }
+        font-size: 18px; }
+
+footer {
+  background-color: #0E3E4E;
+  padding: 20px 0;
+  color: white; }
