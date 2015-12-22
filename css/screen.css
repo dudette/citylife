@@ -1635,6 +1635,22 @@ tbody.collapse.in {
     font-weight: bold;
     display: inline-block; }
 
+.promotion {
+  position: relative; }
+  .promotion img {
+    width: 100%;
+    height: auto; }
+  .promotion span {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 24px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    text-transform: uppercase;
+    background: rgba(26, 25, 25, 0.4); }
+
 h1 {
   font-size: 36px;
   line-height: 1.5; }
