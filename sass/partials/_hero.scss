@@ -3,11 +3,7 @@
 	overflow: hidden;
 
 	.heading {
-<<<<<<< HEAD
-        text-align: center;
-=======
     	text-align: center;
->>>>>>> origin/master
         position: relative;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -16,11 +12,9 @@
         color: $white;
         text-transform: uppercase;
         font-size: 36px;
-<<<<<<< HEAD
-=======
+
         span {
             color: $red;
         }
->>>>>>> origin/master
 	}
 }
