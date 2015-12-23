@@ -1678,6 +1678,12 @@ ul li {
   .info-box:hover {
     text-decoration: none;
     color: #1A1919; }
+    .info-box:hover .info-box-text, .info-box:hover img {
+      -ms-transition: all ease .8s;
+      -o-transition: all ease .8s;
+      -webkit-transition: all ease .8s;
+      -moz-transition: all ease .8s;
+      transition: all ease .8s; }
   .info-box img {
     width: 100%; }
   .info-box .info-box-text {
@@ -1802,21 +1808,43 @@ header {
     header .logo img {
       width: 200px;
       height: auto; }
+  header .toggle-menu {
+    font-size: 30px;
+    float: right;
+    display: none;
+    margin-top: 30px; }
+    @media screen and (max-width: 640px) {
+      header .toggle-menu {
+        display: block; } }
   header .menu {
     line-height: 55px;
     display: block;
     float: right;
-    padding: 20px 0; }
+    padding: 20px 0;
+    display: block; }
+    @media screen and (max-width: 640px) {
+      header .menu {
+        display: none;
+        width: 100%; } }
     header .menu ul li {
       display: inline;
       line-height: 1.5;
       margin-right: 20px;
       background: none; }
+      @media screen and (max-width: 640px) {
+        header .menu ul li {
+          display: block;
+          text-align: center; } }
       header .menu ul li.active a {
         color: #932226; }
       header .menu ul li a {
         color: #FFFFFF;
         font-size: 18px; }
+        @media screen and (max-width: 640px) {
+          header .menu ul li a {
+            display: block;
+            padding: 20px;
+            font-size: 28px; } }
 
 footer {
   background-color: #0E3E4E;

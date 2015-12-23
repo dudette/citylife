@@ -1,0 +1,1 @@
+$("button").on("click",function(){alert("preserve attached java script data!")}),$(".toggle-menu").click(function(){$(".menu").slideToggle(200)});

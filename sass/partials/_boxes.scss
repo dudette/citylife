@@ -3,9 +3,17 @@
 	margin-bottom: 20px;
 	display: block;
 	color: $black;
+
 	&:hover {
 		text-decoration: none;
 		color: $black;
+		.info-box-text, img {
+			-ms-transition: all ease .8s;
+		    -o-transition: all ease .8s;
+		    -webkit-transition: all ease .8s;
+		    -moz-transition: all ease .8s;
+		    transition: all ease .8s;
+		}
 	}
 	img {
 		width: 100%;
@@ -23,6 +31,7 @@
 
 .info-box_red {
 	background-color: $red;
+
 	&:hover {
 		.info-box-text, img {
 			opacity: 0.5;
