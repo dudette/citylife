@@ -2,7 +2,7 @@
         alert('preserve attached java script data!');
     });
     
-    //$('#myTab').tabCollapse();
+    $('#myTab').tabCollapse();
 
 
     $('.toggle-menu').click(function (){
