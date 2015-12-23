@@ -1,0 +1,28 @@
+.buttons {
+
+	.button {
+		padding: 30px 20px;
+
+		&.pink {
+			background: $pink;
+		}
+		&.orange {
+			background: $orange;
+		}
+		&.purple {
+			background: $purple;
+		}		
+		&:hover {
+			background: $red;
+		}
+
+		span {
+			color: $white;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 18px;
+			display: block;
+			font-weight: bold;
+		}		
+	}
+}
