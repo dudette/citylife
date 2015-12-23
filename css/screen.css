@@ -1733,7 +1733,7 @@ ul li {
 
 .tabs {
   position: relative;
-  min-height: 300px;
+  min-height: 400px;
   clear: both;
   margin: 25px 0; }
 
@@ -1741,7 +1741,8 @@ ul li {
   float: left; }
 
 .tab label {
-  background: #eee;
+  background: #1A1919;
+  color: #FFFFFF;
   padding: 10px;
   border: 1px solid #ccc;
   margin-left: -1px;
@@ -1755,7 +1756,6 @@ ul li {
   position: absolute;
   top: 28px;
   left: 0;
-  background: white;
   right: 0;
   bottom: 0;
   margin-top: 1px; }
@@ -1770,8 +1770,7 @@ ul li {
         width: 100%; } }
 
 [type=radio]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid white;
+  background: #932226;
   z-index: 2; }
 
 [type=radio]:checked ~ label ~ .content {
